@@ -9,6 +9,7 @@ const middleware = require("./utils/middleware")
 const morgan = require("morgan")
 const mainUserRouter = require("./controllers/mainUserRouter")
 const authRouter = require("./controllers/authRouter")
+const personalityRouter = require("./controllers/personalityRouter")
 
 const url = config.DATABASE_URL
 logger.info("connecting to", url)
@@ -27,6 +28,7 @@ app.use(middleware.tokenExtractor)
 app.use(middleware.tokenValidator)
 
 app.use("/api/users", mainUserRouter)
+app.use("/api/personalities", personalityRouter)
 
 app.use(middleware.errorHandler)
 

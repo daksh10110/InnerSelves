@@ -25,7 +25,7 @@ Personality.init({
 	sequelize,
 	underscrored: true,
 	timestamps: false,
-	modelName: "MainUser"
+	modelName: "Personality"
 })
 
 module.exports = Personality

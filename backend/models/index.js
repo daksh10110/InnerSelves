@@ -2,7 +2,7 @@ const MainUser = require("./MainUser")
 const Personality = require("./Personality")
 
 MainUser.hasMany(Personality)
-Personality.belongsTo(MainUser)
+Personality.belongsTo(MainUser, { foreignKey: "mainUser" })
 
 MainUser.sync()
 Personality.sync()
