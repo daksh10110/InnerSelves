@@ -1,0 +1,121 @@
+{
+  "Name": "Arto",
+  "Age": 23,
+  "id": 1,
+  "Gender": "M",
+  "Personalities": [
+      {
+        "Name": "Michael",
+        "Age": 35,
+        "Type": "Part-time",
+        "image": "assets/images/host.png",
+        "id": 1,
+        "Tasks": [
+          {
+            "id": 1,
+            "Type": "Universal",
+            "Title": "Don't wear sweater",
+            "Description": "It's 40 degree outside",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "Type": "Private",
+            "Title": "Don't take phone to bath",
+            "Description": "I can get electric shock",
+            "isCompleted": false
+          }
+          ],
+        "Journal": [
+          {
+            "id": 1,
+            "Title": "Changed into someone else",
+            "Description": "At around 1 AM"
+          }
+         ],
+        "Instructions": [
+          {
+            "id": 1,
+            "toPersonality": "1",
+            "Voice Note": "TBA",
+            "Title": "I'm sending this to myself for some reason",
+            "Description": "At around 1 AM"
+          }
+        ]
+      },
+    {
+      "Name": "Protector",
+      "Age": 35,
+      "Type": "Part-time",
+      "image": "assets/images/host.png",
+      "id": 2,
+      "Tasks": [
+        {
+          "id": 1,
+          "Type": "Universal",
+          "Title": "Don't wear sweater",
+          "Description": "It's 40 degree outside"
+        },
+        {
+          "id": 2,
+          "Type": "Private",
+          "Title": "Don't take phone to bath",
+          "Description": "I can get electric shock"
+        }
+      ],
+      "Journal": [
+        {
+          "id": 1,
+          "Title": "Changed into someone else",
+          "Description": "At around 1 AM"
+        }
+      ],
+      "Instructions": [
+        {
+          "id": 1,
+          "toPersonality": "1",
+          "Voice Note": "TBA",
+          "Title": "I'm sending this to myself for some reason",
+          "Description": "At around 1 AM"
+        }
+      ]
+    },
+    {
+      "Name": "Child",
+      "Age": 35,
+      "Type": "Part-time",
+      "image": "assets/images/host.png",
+      "id": 3,
+      "Tasks": [
+        {
+          "id": 1,
+          "Type": "Universal",
+          "Title": "Don't wear sweater",
+          "Description": "It's 40 degree outside"
+        },
+        {
+          "id": 2,
+          "Type": "Private",
+          "Title": "Don't take phone to bath",
+          "Description": "I can get electric shock"
+        }
+      ],
+      "Journal": [
+        {
+          "id": 1,
+          "Title": "Changed into someone else",
+          "Description": "At around 1 AM"
+        }
+      ],
+      "Instructions": [
+        {
+          "id": 1,
+          "toPersonality": "1",
+          "Voice Note": "TBA",
+          "Title": "I'm sending this to myself for some reason",
+          "Description": "At around 1 AM"
+        }
+      ]
+    }
+  ]
+}
