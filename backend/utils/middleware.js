@@ -33,7 +33,6 @@ const tokenValidator = (request, response, next) => {
 		return response.status(401).json({ error: "token missing" })
 	}
 
-	// eslint-disable-next-line no-undef
 	const decodedToken = jwt.verify(token, process.env.SECRET)
 	if (!decodedToken.id) {
 		return response.status(401).json({ error: "invalid token" })
