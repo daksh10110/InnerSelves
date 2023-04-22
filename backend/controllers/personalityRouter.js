@@ -14,4 +14,18 @@ personalityRouter.get("/", async (req, res) => {
 	res.json(user.Personalities)
 })
 
+personalityRouter.post("/", async (req, res) => {
+	const token = req.token
+	const decodedToken = jwt.verify(token, process.env.SECRET)
+
+	const newPersonality = await Personality.create({
+		name: req.body.name,
+		age: req.body.age,
+		gender: req.body.gender,
+		MainUserId: decodedToken.id
+	})
+
+	res.json(newPersonality)
+})
+
 module.exports = personalityRouter
