@@ -1,7 +1,6 @@
 const express = require("express")
 const journalRouter = express()
 const { Personality, Journal } = require("../models/index")
-const { update } = require("../models/MainUser")
 
 journalRouter.get("/:id", async(req, res) => {
 	const personality = await Personality.findOne({
