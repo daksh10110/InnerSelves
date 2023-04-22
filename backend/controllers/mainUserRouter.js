@@ -1,6 +1,6 @@
 const express = require("express")
 const mainUserRouter = express()
-const MainUser = require("../models/MainUser")
+const { MainUser } = require("../models/index")
 const jwt = require("jsonwebtoken")
 
 mainUserRouter.get("/me", async (req, res) => {

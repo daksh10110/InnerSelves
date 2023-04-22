@@ -2,30 +2,22 @@ const { Model, DataTypes } = require("sequelize")
 const { sequelize } = require("../utils/db")
 
 
-class MainUser extends Model {}
-MainUser.init({
+class Personality extends Model {}
+Personality.init({
 	id: {
 		type: DataTypes.INTEGER,
 		primaryKey: true,
 		autoIncrement: true
 	},
-	legalName: {
+	name: {
 		type: DataTypes.TEXT,
 		allowNull: false
 	},
-	legalAge: {
+	age: {
 		type: DataTypes.INTEGER,
 		allowNull: false
 	},
-	email: {
-		type: DataTypes.TEXT,
-		allowNull: false
-	},
-	passwordHash: {
-		type: DataTypes.CHAR(60),
-		allowNull: false
-	},
-	legalGender: {
+	gender: {
 		type: DataTypes.TEXT,
 		allowNull: false
 	}
@@ -36,4 +28,4 @@ MainUser.init({
 	modelName: "MainUser"
 })
 
-module.exports = MainUser
+module.exports = Personality

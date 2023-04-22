@@ -5,5 +5,5 @@ const sequelize = new Sequelize(config.DATABASE_URL, {
 	dialectOptions: {},
 })
 
-module.exports = sequelize
+module.exports = { sequelize }
 
