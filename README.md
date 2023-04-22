@@ -18,8 +18,6 @@ The Innerselves Flutter app is specifically designed to assist individuals with 
 
 7. **Flutter Cross-Platform Development**: The app is built using Flutter, a cross-platform UI toolkit, allowing it to run on multiple platforms such as iOS, Android, and the web. This provides flexibility and versatility for users to access the app on different devices.
 
-In summary, the Innerselves Flutter app provides a comprehensive solution for individuals with DID to manage their alters in an organized, secure, and efficient manner. With features such as profile creation and management, task tracking, journaling, and secure communication, the app can assist individuals with DID in better understanding and managing their condition, improving communication and collaboration among alters, and promoting self-awareness and well-being.
-
 ## Frontend
 
 The frontend of Innerselves is built using Flutter, a popular UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. The frontend includes the following pages:
