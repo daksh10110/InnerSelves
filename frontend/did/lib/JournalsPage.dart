@@ -71,7 +71,7 @@ class JournalsPage extends StatelessWidget {
                               SizedBox(height: 4.0),
                               Text("Date", style: TextStyle(color: Colors.black,fontSize: 24,fontFamily: "three")), // Set text color to white
                               SizedBox(height: 4.0),
-                              Text("The page would be divided on top would be add entry while below it the list of entries would appear. in the add task portion on top would be a blank text box with text hint stating add entry, there are optional parameters below it such as enter date .below them would be an add entry button that will add the entry to the journal. in the list of entries portion the list of entries will appear with their title date and description", style: TextStyle(color: Colors.brown,fontSize: 20,fontFamily: "three")), // Set text color to white
+                              Text("Today was a rollercoaster of emotions. I woke up feeling anxious about an upcoming presentation at work, but I managed to calm my nerves by practicing my speech multiple times. At lunch, I received some disappointing news about a close friend moving away, which left me feeling sad and nostalgic. However, in the evening, I received a surprise visit from my sister, whom I haven't seen in months, and it instantly lifted my spirits. We spent quality time together, reminiscing about old memories and making new ones. Overall, today reminded me that life is full of ups and downs, but moments of joy can come when you least expect them.", style: TextStyle(color: Colors.brown,fontSize: 20,fontFamily: "three")), // Set text color to white
                             ],
                           ),
                         ),

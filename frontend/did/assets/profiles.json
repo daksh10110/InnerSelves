@@ -7,14 +7,14 @@
       {
         "Name": "Michael",
         "Age": 35,
-        "Type": "Part-time",
+        "Type": "Host",
         "image": "assets/images/host.png",
         "id": 1,
         "Tasks": [
           {
             "id": 1,
             "Type": "Universal",
-            "Title": "Don't wear sweater",
+            "Title": "Going to Delhi",
             "Description": "It's 40 degree outside",
             "isCompleted": false
           },
@@ -44,9 +44,9 @@
         ]
       },
     {
-      "Name": "Protector",
+      "Name": "Tom",
       "Age": 35,
-      "Type": "Part-time",
+      "Type": "Protector",
       "image": "assets/images/host.png",
       "id": 2,
       "Tasks": [
@@ -81,9 +81,9 @@
       ]
     },
     {
-      "Name": "Child",
+      "Name": "Angela",
       "Age": 35,
-      "Type": "Part-time",
+      "Type": "Child",
       "image": "assets/images/host.png",
       "id": 3,
       "Tasks": [

@@ -124,7 +124,7 @@ class ProfileDetailPage extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
-                    'Instructions',
+                    'Communications',
                     style: TextStyle(
                       fontSize: 24,
                       color: Colors.white,

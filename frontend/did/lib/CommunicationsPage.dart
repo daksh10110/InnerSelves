@@ -185,7 +185,7 @@ class _CommunicationsPageState extends State<CommunicationsPage> {
                       ),
                       trailing: IconButton(
                         onPressed: () {
-                          _showInfoDialog("Protector", "the page would be divided on top would be add entry while below it the list of entries would appear. in the add task portion on top would be a blank text box with text hint stating add entry, there are optional parameters below it such as enter date .below them would be an add entry button that will add the entry to the journal. in the list of entries portion the list of entries will appear with their title ");// Handle right arrow button press
+                          _showInfoDialog("Protector", "Just wanted to check in and see how you're doing. It's been a while since we last connected, and I wanted to make sure you're okay. I know we all have our unique experiences and challenges, and I want to make sure you're feeling supported and heard within our system.");// Handle right arrow button press
                         },
                         icon: Icon(
                           Icons.arrow_forward,
