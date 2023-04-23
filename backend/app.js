@@ -11,6 +11,7 @@ const mainUserRouter = require("./controllers/mainUserRouter")
 const authRouter = require("./controllers/authRouter")
 const personalityRouter = require("./controllers/personalityRouter")
 const journalRouter = require("./controllers/journalRouter")
+const instructionRouter = require("./controllers/instructionRouter")
 
 const url = config.DATABASE_URL
 logger.info("connecting to", url)
@@ -31,6 +32,7 @@ app.use(middleware.tokenValidator)
 app.use("/api/users", mainUserRouter)
 app.use("/api/personalities", personalityRouter)
 app.use("/api/journals", journalRouter)
+app.use("/api/instructions", instructionRouter)
 
 app.use(middleware.errorHandler)
 
