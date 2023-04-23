@@ -61,7 +61,7 @@ class _SignupPage1State extends State<SignupPage1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Nice Guys"),
+        title: Text("InnerSelves"),
       ),
       body: SingleChildScrollView(
         child: Container(
